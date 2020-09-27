@@ -164,6 +164,6 @@ classifier.fit(X_train, y_train)
 # Making the Confusion Matrix
 from sklearn.metrics import confusion_matrix, accuracy_score
 y_pred8 = classifier.predict(X_test)
-cm8 = confusion_matrix(y_test, y_pred8)
+cm8 =confusion_matrix(y_test, y_pred8)
 # print(cm8)
 print("XGBoost=",accuracy_score(y_test, y_pred8))
